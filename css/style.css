@@ -1,5 +1,6 @@
 /* Google Font */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
 * {
     box-sizing: border-box;
 }
@@ -22,7 +23,7 @@ body {
 
 .button-about-me a:link,
 .button-about-me a:visited {
-    background: linear-gradient( rgba(58, 118, 239, 0.8) , rgba(80, 180, 144, 0));
+    background: linear-gradient(rgba(58, 118, 239, 0.8), rgba(80, 180, 144, 0));
     color: rgba(14, 29, 24, 0.6);
     font-size: 18px;
     text-decoration: none;
@@ -38,14 +39,15 @@ body {
 }
 
 /* -------------NAVIGATION------------- */
-.bg{
+.bg {
     background-image: url(../img/bg-main.png);
-     height: 20vh;
-     background-position: center;
-     background-size: cover;
- }
+    height: 20vh;
+    background-position: center;
+    background-size: cover;
+}
+
 .navbar {
-    padding: 0.3rem 6rem;  
+    padding: 0.3rem 6rem;
 }
 
 .navbar-brand {
@@ -67,9 +69,14 @@ body {
 
 
 @keyframes anime {
-    from {border-bottom-color:rgb(8, 181, 250);}
-    to {border-bottom-color: rgb(106, 106, 235);}
-  }
+    from {
+        border-bottom-color: rgb(8, 181, 250);
+    }
+
+    to {
+        border-bottom-color: rgb(106, 106, 235);
+    }
+}
 
 .nav-item {
     margin-left: 2.5rem;
@@ -209,7 +216,7 @@ body {
 .img-border:before,
 .img-border::after {
     position: absolute;
-    content: "" ;
+    content: "";
     height: 465.22px;
     width: 398.36px;
     border: 8px solid rgba(129, 231, 194, 0.6);
@@ -239,7 +246,7 @@ body {
     margin: 16rem 0;
 }
 
-.blank-block-img-left{
+.blank-block-img-left {
     width: 100%;
 }
 
@@ -259,7 +266,7 @@ body {
 }
 
 .text-block-reverse {
-    background: linear-gradient(rgba(80, 180, 144, 0),  rgba(58, 118, 239, 0.8));
+    background: linear-gradient(rgba(80, 180, 144, 0), rgba(58, 118, 239, 0.8));
     width: 100%;
     padding: 4rem;
     text-align: justify;
@@ -310,11 +317,11 @@ body {
 
 .arrow li {
     padding: 20px 35px;
-}   
+}
 
-.no-style ul li  {
+.no-style ul li {
     font-size: 18px;
-    
+
 }
 
 .arrow li a {
@@ -442,12 +449,9 @@ body {
 /* -------------FOOTER------------- */
 
 .footer-section {
-    /* background-image: url(../img/waves.png);
-    background-size: cover;
-    background-position: bottom; */
-    background-image: linear-gradient(rgba(202, 212, 247, 0.1), rgb(8, 51, 211)) ;
+    background-image: linear-gradient(rgba(202, 212, 247, 0.1), rgb(8, 51, 211));
     color: #000000;
-    padding: 2rem 0;   
+    padding: 2rem 0;
     text-align: center;
     margin-top: 3rem;
 }
@@ -476,4 +480,3 @@ body {
 }
 
 /* Footer contact  */
-
