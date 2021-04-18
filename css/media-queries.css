@@ -1,0 +1,120 @@
+/* // X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .bg {
+    height: 18vh;
+  }
+  .blanck-block-img-left {
+    width: 100% !important;
+  }
+
+  .img4,
+  .img10,
+  .img1,
+  .img9 {
+    display: none;
+  }
+
+  .progress-bar-ul li {
+    padding: 8px;
+  }
+  .text-block,
+  .text-block-reverse {
+    padding: 1.5rem;
+  }
+
+  ul.no-style {
+    padding: 0;
+  }
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  div.photo-gallery-container {
+    width: 90vw;
+  }
+}
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    .logo {
+        margin-top: 1rem;
+    }
+
+    .container-load {
+    top: 8px;
+    }
+   
+  .navbar-dark .navbar-toggler {
+    color: rgb(161, 159, 159);
+  }
+
+  .navbar-dark .navbar-nav .nav-link:link,
+  .navbar-dark .navbar-nav .nav-link:visited {
+    color: rgb(0, 0, 0);
+    text-align: right;
+  }
+
+  .navbar-nav {
+      padding-top: 2.25rem;
+  }
+
+  .navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:active {
+    border: none;
+    color: rgb(107, 73, 165);
+}
+
+  .nav-item {
+    margin-top: 0rem;
+  }
+
+  .navbar {
+    padding: 1rem;   
+  }
+
+  .introduction {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .introduction-right {
+    margin-top: 15rem;
+  }
+
+  .introduction-left {
+    margin-top: 18rem;
+  }
+
+  .introduction h1 {
+    font-size: 40px;
+    padding: 3.5rem 0.5rem 2rem;
+  }
+
+  .blanck-block-img-left {
+    width: 60%;
+    display: flex;
+    margin: auto;
+  }
+
+  .contact-me {
+    margin-top: 5rem;
+  }
+}
+
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+  .introduction p {
+    font-size: 18px;
+    padding-right: 1rem;
+  }
+}
+
+/* // X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {
+  .text-block,
+  .text-block-reverse {
+    max-width: 100%;
+  }
+}
+
+/* // XX-Large devices (larger desktops)
+// No media query since the xxl breakpoint has no upper bound on its width */
